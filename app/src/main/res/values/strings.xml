@@ -1,0 +1,234 @@
+<resources>
+
+    <string name="app_name">ManCon</string>
+
+
+
+
+    //login_activiy start
+    <string name="login_to_oms">LOGIN TO OMS</string>
+    <string name="edit_hint_clock">Clock Number</string>
+    <string name="enter_password">Password</string>
+    <string name="forgot_pass">Forgot Password?</string>
+    <string name="save_login">Save Login</string>
+    <string name="login">LOGIN</string>
+    //login_activity end
+
+
+
+    //change password start
+    <string name="text_change">CHANGE PASSWORD</string>
+    <string name="default_password">Default Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="onetimepassword">OneTimePassword</string>
+    <string name="enter_otp">Enter OTP</string>
+    //Change password end
+
+
+    //Common name start
+    <string name="submit">SUBMIT</string>
+    <string name="dot">:</string>
+    <string name="cancel">CANCEL</string>
+    <string name="Mancon">ManCon</string>
+    //common name end
+
+    //row_type4 start
+    <string name="question2">2.Is ID card displayed clearly?</string>
+    //row_type end
+
+
+    //tab1 start
+    <string name="visit_analysis">VISIT ANALYSIS</string>
+    //tab1 end
+
+    //radio_question start
+    <string name="threatmissing">Threat/Missing</string>
+    <string name="assetdamage">Asset Damage</string>
+    <string name="negligence">Negligence</string>
+    <string name="others_radio">Others</string>
+    //radio_question end
+
+
+    //row_item start
+    <string name="Enter_Comment">Enter Comment</string>
+    //row_item end
+
+
+    //activity_checklist start
+    <string name="hub">HUB</string>
+    <string name="branch">BRANCH</string>
+    <string name="assign_address">Assignment Address</string>
+    <string name="select_checklist">Select A Checklist</string>
+    <string name="select">SELECT</string>
+    <string name="day_checklist">Day Checklist</string>
+    <string name="night_checklist">Night Checklist</string>
+    <string name="Surprise_checklist">Surprise Checklist</string>
+    <string name="others">Others</string>
+    <string name="sla">SLA</string>
+    //activity_checklist end
+
+    //activity_checklist_types start
+    <string name="day_check">DAY CHECKLIST</string>
+    //activity_checklist_types end
+
+    //activity_dashboard start
+    <string name="site_inspection">SITE INSPECTION</string>
+    <string name="customer_visits">CUSTOMER VISITS</string>
+    <string name="complaints">Complaints</string>
+    <string name="incidents">Incidents</string>
+    // activity_dashboard end
+
+
+    //activity_day_check_summary start
+    <string name="day_check_summary">DAY CHECKLIST SUMMARY</string>
+    //activity_day_check_summary end
+
+
+    //activity_filter start
+    <string name="filter_option">FILTER OPTION</string>
+    <string name="close">CLOSE</string>
+    <string name="all">ALL</string>
+    <string name="none">NONE</string>
+    <string name="apply">APPLY</string>
+    <string name="query_hint_search_user">Search User</string>
+    //activity_filter end
+
+
+    //activiy_mapaclient start
+    <string name="locations">Location</string>
+    <string name="client_name">Client Name</string>
+    <string name="map_client">MAP A CLIENT</string>
+    //activity_mapaclient_end
+
+    //activity_schedule_visit start
+    <string name="client_location">Schedule A Visit</string>
+    <string name="Step_one">STEP-1</string>
+    <string name="assign_schedule_to">Assign Schedule To?</string>
+    <string name="query_hint_search">Search..</string>
+    //activity_schedule_visit end
+
+    //activity_schedule_visit2 start
+    <string name="step_two">STEP-2</string>
+    <string name="assigned">Assigned</string>
+    <string name="selected_week">Selected Week</string>
+    <string name="assignclient">ASSIGN CLIENTS AND LOCATION</string>
+    //activity_schedule_visit2 end
+
+
+    //calendar_questions start
+    <string name="question1">1.Is Uniform complete, Clean and Ironed?</string>
+    <string name="button_yes">YES</string>
+    <string name="button_no">NO</string>
+    //calendar_questions end
+
+
+    //checklistothers start
+    <string name="ok">OK</string>
+    //checklistothers end
+
+    //content_main start
+    <string name="scheduled">Scheduled</string>
+    <string name="pending">Pending</string>
+    <string name="filter">Filter</string>
+    <string name="check_in">CHECK IN</string>
+    <string name="check_out">CHECK OUT</string>
+    <string name="sos">SOS</string>
+    //content_main end
+
+    //emp_tab1 start
+    <string name="EMPLOYEE_VISIT">EMPLOYEE VISIT</string>
+    <string name="View">View</string>
+    //emp_tab1 end
+
+    //emp_tab_client_emp start
+    <string name="employee_reports">Employee Reports</string>
+    <string name="select_date">Select Date</string>
+    <string name="select_g4s_officials">Select G4S Officials</string>
+    <string name="intro">No Of Client Locations</string>
+    <string name="client_map">No Of Client Locations \n Mapped</string>
+    //emp_tab_client_emp end
+
+
+    //employee_report start
+    <string name="employee_performance_summary_report">Employee Performance Summary Report</string>
+    <string name="client_summary_report">Client Summary Report</string>
+    <string name="VARIANCES">VARIANCES</string>
+    <string name="Total_Variances">Total Variances</string>
+    <string name="details_of_site">Details Of Site Inspection </string>
+    <string name="Details_Of_Variances">Details Of Variances </string>
+    <string name="Emergency">Emergency</string>
+    <string name="Alertness">Alertness</string>
+    <string name="Uniform">Uniform</string>
+    <string name="SOP">SOP</string>
+    <string name="HSE">HSE</string>
+    <string name="Count">Count</string>
+    <string name="Training">Training</string>
+    <string name="CLIENT_COMPLAINTS">CLIENT COMPLAINTS</string>
+    <string name="Total_Reported">Total Reported</string>
+    <string name="Open_Complaints">Open Complaints</string>
+    <string name="Open_Incidents">Open Incidents</string>
+    <string name="client_information">CLIENT INFORMATION</string>
+    <string name="Client_Under_Threat">Client Under Threat</string>
+    //employee_report end
+
+
+    //client_report start
+    <string name="visit">VISITS</string>
+    <string name="schedule_visit">Scheduled Visits</string>
+    <string name="unscheduled_visit">UnScheduled Visits</string>
+    <string name="missed_visit">Missed Visits</string>
+    <string name="site">SITE INSPECTION</string>
+
+    <string name="day_report">Day</string>
+    <string name="night_report">Night</string>
+    <string name="surprise_report">Surprise</string>
+    <string name="complaints_report">COMPLAINTS</string>
+    <string name="Total_Complaints">Total Complaints</string>
+    <string name="Total_Open_Complaints">Total Open Complaints</string>
+    <string name="Details_Of_Complaints">Details Of Complaints</string>
+    <string name="total">Total</string>
+    <string name="Open">Open</string>
+    <string name="shortage_report">Shortage</string>
+    <string name="Sleeping">Sleeping</string>
+
+    <string name="Comp_issues">Comp.issues</string>
+    <string name="PERFORMANCE">PERFORMANCE</string>
+    <string name="Meetings">Meetings</string>
+    <string name="Threat">Threat</string>
+    <string name="Variances">Variances</string>
+    <string name="Trainings">Trainings</string>
+    <string name="Briefiings">Briefiings</string>
+    <string name="Toolbox_Talk">Toolbox Talk</string>
+    <string name="INCIDENTS">INCIDENTS</string>
+    <string name="Total_Incidents">Total Incidents</string>
+    <string name="Total_Open_Incidents">Total Open Incidents</string>
+    <string name="Details_Of_Incidents">Details Of Incidents</string>
+    <string name="Theft">Theft</string>
+    <string name="Damage">Damage</string>
+    <string name="Fire">Fire</string>
+    <string name="Negligence">Negligence</string>
+    <string name="employee_visit">EMPLOYEE VISIT</string>
+    <string name="view">View</string>
+    <string name="client_reports">Client Reports</string>
+    <string name="hint_clock">Clock</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="hint_mob">Mobile</string>
+    <string name="hint_branch">Branch</string>
+    <string name="hint_hub">Hub</string>
+    <string name="text_register">Register</string>
+    <string name="fire">Fire</string>
+    <string name="enter_comment">Enter Comment</string>
+    <string name="_1_is_there_any_incident_reported_in_last_one_month">1. Is there any incident reported in last one month?</string>
+    <string name="send_feedback">Send Feedback</string>
+    <string name="welcome_to_eps_report">Welcome To EPS Report</string>
+    <string name="welcome_to_eposting_sheet">Welcome To EPosting Sheet</string>
+    //client_report end
+
+
+
+
+</resources>

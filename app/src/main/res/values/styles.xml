@@ -1,0 +1,60 @@
+<resources>
+
+    <!-- Spinner row theme-->
+    <style name="spinnerTheme">
+        <item name="android:textColor">#000000</item>
+    </style>
+
+
+    <!-- NAvigation drawer App Bar Theme Common -->
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="Drawer" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">#000000</item>
+    </style>
+
+    <!-- Calendar Theme-->
+    <style name="CalendarDatePickerDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/red</item>
+        <item name="android:textColorPrimary">@color/red</item>
+        <item name="android:calendarTextColor">@color/red</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!-- filter and schedule visit1 theme-->
+    <style name="Hint" parent="Theme.Design.NoActionBar">
+        <item name="android:textColorHint">@color/text_color_black</item>
+        <item name="android:editTextColor">@color/text_color_black</item>
+        <item name="android:textSize">@dimen/text_size</item>
+
+    </style>
+
+    <!-- login activity checklist rows theme-->
+    <style name="TextAlign" parent="Theme.Design.NoActionBar">
+        <item name="android:textColor">@color/text_color_black</item>
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:fontFamily">@fonts/GillSans</item>
+    </style>
+
+
+    <!-- tab client employee theme-->
+    <style name="spindialog" parent="Theme.AppCompat">
+        <item name="android:alertDialogTheme">@style/AppTheme.SpinnerDialog</item>
+    </style>
+    <style name="AppTheme.SpinnerDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:popupBackground">@color/red</item>
+    </style>
+
+    <!-- Checklist theme-->
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:background">@color/red</item>
+    </style>
+
+    <!-- Schedule visit2 theme-->
+    <style name="MyAlertDialogStyle1" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColorPrimary">@color/text_color_black</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+
+</resources>

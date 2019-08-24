@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    android:id="@+id/cust_spin_view"
+    android:theme="@style/spinnerTheme"
+    android:background="@drawable/spinner_hub"
+    android:textColor="@drawable/state_selector_drawable"
+    android:textSize="@dimen/text_size"
+    android:paddingStart="15dp"
+    android:paddingEnd="15dp"
+    android:gravity="start|center"
+   >
+</TextView>

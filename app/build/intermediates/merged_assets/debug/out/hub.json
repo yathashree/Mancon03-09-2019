@@ -1,0 +1,52 @@
+[
+  {
+    "HubAutoId": 6,
+    "HubCode": "KNT",
+    "HubName": "BANGALORE"
+  },
+  {
+    "HubAutoId": 10,
+    "HubCode": "SOC",
+    "HubName": "CHENNAI"
+  },
+  {
+    "HubAutoId": 2,
+    "HubCode": "DCD",
+    "HubName": "DELHI"
+  },
+  {
+    "HubAutoId": 9,
+    "HubCode": "RON",
+    "HubName": "GURGAON"
+  },
+  {
+    "HubAutoId": 4,
+    "HubCode": "HOC",
+    "HubName": "HEAD OFFICE"
+  },
+  {
+    "HubAutoId": 1,
+    "HubCode": "APH",
+    "HubName": "HYDERABAD"
+  },
+  {
+    "HubAutoId": 5,
+    "HubCode": "ISS",
+    "HubName": "ISS"
+  },
+  {
+    "HubAutoId": 3,
+    "HubCode": "EAK",
+    "HubName": "KOLKATA"
+  },
+  {
+    "HubAutoId": 7,
+    "HubCode": "MUM",
+    "HubName": "MUMBAI"
+  },
+  {
+    "HubAutoId": 8,
+    "HubCode": "PSS",
+    "HubName": "PSS"
+  }
+]

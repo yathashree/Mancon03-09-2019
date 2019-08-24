@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#51d8c7</color>
+    <color name="red">#E4002B</color>
+
+    <color name="white">#ffffff</color>
+    <color name="list_bg_1">@color/white</color>
+    <color name="dateTimeRangePickerStateNonSelectable">@color/white</color>
+
+    <color name="green">#048509</color>
+    <color name="text_color_black">#000000</color>
+    <color name="pink">#feebec</color>
+
+
+    <color name="light_grey">#DCE6F2</color>
+    <color name="dark_grey">#d2d3d1</color>
+    <color name="hint_grey">#DCE6F2</color>
+
+</resources>

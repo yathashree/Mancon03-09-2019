@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <group>
+        <item
+            android:id="@+id/schedule"
+            android:title="Schedule"
+           android:icon="@drawable/schedule"
+            />
+        </group>
+
+        <item
+            android:id="@+id/home"
+            android:title="Home"
+            android:icon="@drawable/home"
+            />
+
+        <item
+            android:id="@+id/dashboard"
+            android:title="Dashboard"
+            android:icon="@drawable/dashboard"
+            />
+
+        <item
+            android:id="@+id/client_Reports"
+            android:title="Client Reports"
+            android:icon="@drawable/report"/>
+        <item
+            android:id="@+id/emp_reports"
+            android:title="Employee Reports"
+            android:icon="@drawable/report"/>
+        <item
+            android:id="@+id/mapaclient"
+            android:title="Map a Client"
+            android:icon="@drawable/map_client"/>
+
+        <item
+            android:id="@+id/schedulevisits"
+            android:title="Schedule Visits"
+            android:icon="@drawable/schedule"/>
+
+
+
+        <item
+            android:id="@+id/mom"
+            android:icon="@drawable/mom"
+            android:title="Meeting Minutes"/>
+        <item
+            android:id="@+id/sos"
+            android:icon="@drawable/sos"
+            android:title="SOS"/>
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout_icon"
+            android:title="Logout"/>
+    </group>
+    <group android:checkableBehavior="single"/>
+    <group android:checkableBehavior="single"/>
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/version"
+        android:title="Version 1.1.1"
+        />
+    </group>
+
+</menu>

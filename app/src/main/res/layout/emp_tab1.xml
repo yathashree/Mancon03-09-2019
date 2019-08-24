@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".Tab_Main">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_height"
+        android:background="@color/hint_grey" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="@dimen/margin_five"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1.5"
+            android:text="@string/employee_visit"
+            android:textAlignment="center"
+            android:textColor="@color/text_color_black"
+            android:textSize="@dimen/text_size" />
+
+        <Button
+            android:id="@+id/menu_popup"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/layout_height"
+            android:layout_margin="@dimen/margin_five"
+            android:layout_weight="0.01"
+            android:background="@drawable/btncancelstyle"
+            android:text="@string/view"
+            android:textColor="@color/red"
+            android:textSize="@dimen/text_size" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/margin_fifteen">
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/piechart_visits"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:foregroundGravity="center" />
+
+
+    </LinearLayout>
+</LinearLayout>

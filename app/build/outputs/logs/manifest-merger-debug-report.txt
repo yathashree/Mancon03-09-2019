@@ -1,0 +1,525 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:2:1-145:12
+INJECTED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:2:1-145:12
+INJECTED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:2:1-145:12
+INJECTED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:2:1-145:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\402068a31c950e80734a4f858c79d749\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\e070f90c24b0aa054bbf0c1b58629e29\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\5639f5fee69ebcab26fb5efaadc24b6d\AndroidManifest.xml:2:1-11:12
+MERGED from [com.squareup:android-times-square:1.6.5] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\ca1f324182e4d40c431ecdea6b85328c\AndroidManifest.xml:2:1-9:12
+MERGED from [com.razorpay:checkout:1.5.3] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\24e4a2b4150711f1b4e79bf4b4f17e9f\AndroidManifest.xml:2:1-32:12
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\94d0a1e0407d53268e3bad9fae1c8c1c\AndroidManifest.xml:2:1-11:12
+MERGED from [me.anwarshahriar:calligrapher:1.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\8d9a194507dc6dcbb51a5fa8b25f92d2\AndroidManifest.xml:2:1-17:12
+MERGED from [com.github.anasanasanas:material-calendarview:1.4.4] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\98caff86050bc45c684fb70a11ac8286\AndroidManifest.xml:2:1-14:12
+MERGED from [com.toptoche.searchablespinner:searchablespinnerlibrary:1.3.1] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\315556c41917dfdc0036f2b02a23fe86\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-vision:11.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\788427bf29167765e081997c1dada0d4\AndroidManifest.xml:2:1-5:12
+MERGED from [me.dm7.barcodescanner:zxing:1.9] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\6c97cb2cabf77cccd4eae345c6a0d05a\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-vision-common:11.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\cc14ade6362e9d46120780f56d2b5390\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-base:11.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\f478d037a61bd9b1afd3d64d774633bd\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-tasks:11.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\298a8d8fadc69bd5c1524de430277ddd\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:11.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\20b6fac92eea69685dcc45d286bd7261\AndroidManifest.xml:16:1-23:12
+MERGED from [me.dm7.barcodescanner:core:1.9] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\198178887580bf2b25a5e9c1e700714d\AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\078ef9f4e6174d0868b290452394af42\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\6dbe49257c33ce1a811c52d4f95443ea\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\24e8dcb8c66b2b8e5467bc158a7f3716\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\84b035440cdc32e025d57226f17734aa\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\a95e5ed86b6dcc932037ef8fce3f89cd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\e883579668864ffa74f16766a9ea9db0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\7aca51242c6476842a84f6055907991a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\040adddda04173073ce7af1800f22d84\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\b0b18731fe89f587e37c28ed11fc94f7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\5e6fd684baa848ca304c43081f0a4a74\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\b0b1751b7f011b0ff223fcebef3ca46a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\4d04ce32c2c9420a7f7901ce4790b635\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\e4045af1ec3dd9f4f29d3a800696d5d4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\303c8956bb5681526546fa63d6203c9a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\0e8744c2a35cf12f7aa57b19b2d5e7b8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\6806c5b1ded2ff3b82590d651d5038fb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\d1aae56cf732f6c2d9cadebcac874668\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\6fb464a7901324b496cbd2df88303fb4\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\3462b49d6254938cd445be647df43e95\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\a8d02aec3f0bd451173c2d2a497b7a3a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\8bf831ef0432be81556fded2b9d21e05\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\2a930c790405d084bf52ba0e95fb9926\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\37c05f331b6b44ad006847dbfc8424fa\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\c4f9cd2ef5d480e6ffa71212d01784fc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\f5d680bc85af044c1cb0a04bd496012d\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\ea681675e80c7dab7bd0ba97f6f7f6f0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\00508b5c4db9d4d7361490b38b43856c\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\4613aa554cf37e11031018e26e1d1f06\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\a949deb3e02bcd08cc23e28a9a5c4824\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\8b11d228d59ea67bf52d1c97cd448026\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:2:1-145:12
+INJECTED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:2:1-145:12
+INJECTED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:2:1-145:12
+	package
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:4:5-38
+		INJECTED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:2:1-145:12
+		INJECTED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:2:1-145:12
+		INJECTED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:2:11-69
+supports-screens
+ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:6:5-10:56
+	android:largeScreens
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:8:9-36
+	android:smallScreens
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:10:9-36
+	android:normalScreens
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:9:9-37
+	android:anyDensity
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:7:9-34
+uses-feature#android.hardware.camera
+ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:11:5-13:35
+	android:required
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:13:9-32
+	android:name
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:12:9-47
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:15:5-65
+	android:name
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:15:22-62
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:16:5-70
+	android:name
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:16:19-67
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:18:5-81
+	android:name
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:18:22-78
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:19:5-67
+MERGED from [com.razorpay:checkout:1.5.3] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\24e4a2b4150711f1b4e79bf4b4f17e9f\AndroidManifest.xml:9:5-67
+MERGED from [com.razorpay:checkout:1.5.3] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\24e4a2b4150711f1b4e79bf4b4f17e9f\AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:19:22-64
+application
+ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:22:5-143:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\402068a31c950e80734a4f858c79d749\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\402068a31c950e80734a4f858c79d749\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\5639f5fee69ebcab26fb5efaadc24b6d\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\5639f5fee69ebcab26fb5efaadc24b6d\AndroidManifest.xml:9:5-20
+MERGED from [com.razorpay:checkout:1.5.3] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\24e4a2b4150711f1b4e79bf4b4f17e9f\AndroidManifest.xml:11:5-30:19
+MERGED from [com.razorpay:checkout:1.5.3] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\24e4a2b4150711f1b4e79bf4b4f17e9f\AndroidManifest.xml:11:5-30:19
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\94d0a1e0407d53268e3bad9fae1c8c1c\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\94d0a1e0407d53268e3bad9fae1c8c1c\AndroidManifest.xml:9:5-20
+MERGED from [me.anwarshahriar:calligrapher:1.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\8d9a194507dc6dcbb51a5fa8b25f92d2\AndroidManifest.xml:11:5-15:19
+MERGED from [me.anwarshahriar:calligrapher:1.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\8d9a194507dc6dcbb51a5fa8b25f92d2\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.anasanasanas:material-calendarview:1.4.4] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\98caff86050bc45c684fb70a11ac8286\AndroidManifest.xml:12:5-20
+MERGED from [com.github.anasanasanas:material-calendarview:1.4.4] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\98caff86050bc45c684fb70a11ac8286\AndroidManifest.xml:12:5-20
+MERGED from [com.toptoche.searchablespinner:searchablespinnerlibrary:1.3.1] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\315556c41917dfdc0036f2b02a23fe86\AndroidManifest.xml:11:5-15:19
+MERGED from [com.toptoche.searchablespinner:searchablespinnerlibrary:1.3.1] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\315556c41917dfdc0036f2b02a23fe86\AndroidManifest.xml:11:5-15:19
+MERGED from [com.google.android.gms:play-services-vision:11.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\788427bf29167765e081997c1dada0d4\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-vision:11.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\788427bf29167765e081997c1dada0d4\AndroidManifest.xml:4:5-19
+MERGED from [me.dm7.barcodescanner:zxing:1.9] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\6c97cb2cabf77cccd4eae345c6a0d05a\AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:zxing:1.9] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\6c97cb2cabf77cccd4eae345c6a0d05a\AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:11.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\cc14ade6362e9d46120780f56d2b5390\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-vision-common:11.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\cc14ade6362e9d46120780f56d2b5390\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-base:11.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\f478d037a61bd9b1afd3d64d774633bd\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\f478d037a61bd9b1afd3d64d774633bd\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\298a8d8fadc69bd5c1524de430277ddd\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\298a8d8fadc69bd5c1524de430277ddd\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\20b6fac92eea69685dcc45d286bd7261\AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\20b6fac92eea69685dcc45d286bd7261\AndroidManifest.xml:19:5-21:19
+MERGED from [me.dm7.barcodescanner:core:1.9] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\198178887580bf2b25a5e9c1e700714d\AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:core:1.9] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\198178887580bf2b25a5e9c1e700714d\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\078ef9f4e6174d0868b290452394af42\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\078ef9f4e6174d0868b290452394af42\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\d1aae56cf732f6c2d9cadebcac874668\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\d1aae56cf732f6c2d9cadebcac874668\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\6fb464a7901324b496cbd2df88303fb4\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\6fb464a7901324b496cbd2df88303fb4\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\3462b49d6254938cd445be647df43e95\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\3462b49d6254938cd445be647df43e95\AndroidManifest.xml:22:5-23:19
+	android:screenOrientation
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:27:9-45
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\6fb464a7901324b496cbd2df88303fb4\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:28:9-35
+	android:label
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:25:9-41
+	android:roundIcon
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:26:9-54
+	android:icon
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:24:9-43
+	android:allowBackup
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:23:9-35
+	android:theme
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:29:9-56
+activity#com.anitha.offsitefinal.LogOutActivity
+ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:31:9-36:20
+	android:screenOrientation
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:34:13-49
+	android:noHistory
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:33:13-37
+	android:theme
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:35:13-60
+	android:name
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:32:13-43
+activity#com.anitha.offsitefinal.HelpActivity
+ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:37:9-41:63
+	android:screenOrientation
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:40:13-49
+	android:noHistory
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:39:13-37
+	android:theme
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:41:13-60
+	android:name
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:38:13-41
+activity#com.anitha.offsitefinal.SendFeedBack
+ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:42:9-46:63
+	android:screenOrientation
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:45:13-49
+	android:noHistory
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:44:13-37
+	android:theme
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:46:13-60
+	android:name
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:43:13-41
+activity#com.anitha.offsitefinal.EPostingSheet
+ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:47:9-51:63
+	android:screenOrientation
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:50:13-49
+	android:noHistory
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:49:13-37
+	android:theme
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:51:13-60
+	android:name
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:48:13-42
+activity#com.anitha.offsitefinal.EPSResultsActivity
+ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:52:9-55:63
+	android:screenOrientation
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:54:13-49
+	android:theme
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:55:13-60
+	android:name
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:53:13-47
+activity#com.anitha.offsitefinal.MapaClientActivity
+ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:56:9-60:63
+	android:screenOrientation
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:59:13-49
+	android:noHistory
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:58:13-37
+	android:theme
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:60:13-60
+	android:name
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:57:13-47
+activity#com.anitha.offsitefinal.ScheduleVisits
+ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:61:9-67:63
+	android:screenOrientation
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:65:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:67:13-60
+	android:noHistory
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:64:13-37
+	android:configChanges
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:63:13-51
+	android:theme
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:66:13-60
+	android:name
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:62:13-43
+activity#com.anitha.offsitefinal.DashboradActivity
+ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:68:9-72:63
+	android:screenOrientation
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:71:13-49
+	android:noHistory
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:70:13-37
+	android:theme
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:72:13-60
+	android:name
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:69:13-46
+activity#com.anitha.offsitefinal.MainActivity
+ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:73:9-76:52
+	android:screenOrientation
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:76:13-49
+	android:noHistory
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:75:13-37
+	android:name
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:74:13-41
+activity#com.anitha.offsitefinal.Checklist
+ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:77:9-80:52
+	android:screenOrientation
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:80:13-49
+	android:noHistory
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:79:13-37
+	android:name
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:78:13-38
+activity#com.anitha.offsitefinal.EmployeeReportActivity
+ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:81:9-83:52
+	android:screenOrientation
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:83:13-49
+	android:name
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:82:13-51
+activity#com.anitha.offsitefinal.Report
+ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:84:9-86:52
+	android:screenOrientation
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:86:13-49
+	android:name
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:85:13-35
+activity#com.anitha.offsitefinal.ScheduleVisits2
+ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:87:9-91:52
+	android:screenOrientation
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:91:13-49
+	android:noHistory
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:90:13-37
+	android:configChanges
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:89:13-51
+	android:name
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:88:13-44
+activity#com.anitha.offsitefinal.ChecklistTypes
+ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:92:9-95:52
+	android:screenOrientation
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:95:13-49
+	android:noHistory
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:94:13-37
+	android:name
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:93:13-43
+activity#com.anitha.offsitefinal.Filter
+ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:96:9-99:52
+	android:screenOrientation
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:99:13-49
+	android:noHistory
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:98:13-37
+	android:name
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:97:13-35
+activity#com.anitha.offsitefinal.Employee_Report
+ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:100:9-102:52
+	android:screenOrientation
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:102:13-49
+	android:name
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:101:13-44
+activity#com.anitha.offsitefinal.DayChecklistSummary
+ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:105:9-108:52
+	android:screenOrientation
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:108:13-49
+	android:noHistory
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:107:13-37
+	android:name
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:106:13-48
+activity#com.anitha.offsitefinal.HomeActivityMenu
+ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:109:9-119:20
+	android:screenOrientation
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:111:13-49
+	android:name
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:110:13-45
+intent-filter#action:name:android.intent.action.MAIN+action:name:android.intent.action.VIEW+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:113:13-118:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:114:17-69
+	android:name
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:114:25-66
+action#android.intent.action.VIEW
+ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:115:17-69
+	android:name
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:115:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:117:17-77
+	android:name
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:117:27-74
+activity#com.anitha.offsitefinal.Tab_Main
+ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:120:9-124:63
+	android:screenOrientation
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:123:13-49
+	android:noHistory
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:122:13-37
+	android:theme
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:124:13-60
+	android:name
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:121:13-37
+activity#com.anitha.offsitefinal.CheckOutActivity
+ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:125:9-129:63
+	android:screenOrientation
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:128:13-49
+	android:noHistory
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:127:13-37
+	android:theme
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:129:13-60
+	android:name
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:126:13-45
+activity#com.anitha.offsitefinal.ChangePassword
+ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:132:9-136:63
+	android:screenOrientation
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:135:13-49
+	android:noHistory
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:134:13-37
+	android:theme
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:136:13-60
+	android:name
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:133:13-43
+activity#com.anitha.offsitefinal.ScannedBarcodeActivity
+ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:137:9-141:63
+	android:screenOrientation
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:140:13-49
+	android:noHistory
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:139:13-37
+	android:theme
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:141:13-60
+	android:name
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml:138:13-51
+uses-sdk
+INJECTED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\402068a31c950e80734a4f858c79d749\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\402068a31c950e80734a4f858c79d749\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\e070f90c24b0aa054bbf0c1b58629e29\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\e070f90c24b0aa054bbf0c1b58629e29\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\5639f5fee69ebcab26fb5efaadc24b6d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\5639f5fee69ebcab26fb5efaadc24b6d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.squareup:android-times-square:1.6.5] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\ca1f324182e4d40c431ecdea6b85328c\AndroidManifest.xml:7:5-43
+MERGED from [com.squareup:android-times-square:1.6.5] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\ca1f324182e4d40c431ecdea6b85328c\AndroidManifest.xml:7:5-43
+MERGED from [com.razorpay:checkout:1.5.3] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\24e4a2b4150711f1b4e79bf4b4f17e9f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.razorpay:checkout:1.5.3] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\24e4a2b4150711f1b4e79bf4b4f17e9f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\94d0a1e0407d53268e3bad9fae1c8c1c\AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\94d0a1e0407d53268e3bad9fae1c8c1c\AndroidManifest.xml:7:5-43
+MERGED from [me.anwarshahriar:calligrapher:1.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\8d9a194507dc6dcbb51a5fa8b25f92d2\AndroidManifest.xml:7:5-9:41
+MERGED from [me.anwarshahriar:calligrapher:1.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\8d9a194507dc6dcbb51a5fa8b25f92d2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.anasanasanas:material-calendarview:1.4.4] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\98caff86050bc45c684fb70a11ac8286\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.anasanasanas:material-calendarview:1.4.4] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\98caff86050bc45c684fb70a11ac8286\AndroidManifest.xml:8:5-10:41
+MERGED from [com.toptoche.searchablespinner:searchablespinnerlibrary:1.3.1] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\315556c41917dfdc0036f2b02a23fe86\AndroidManifest.xml:7:5-9:41
+MERGED from [com.toptoche.searchablespinner:searchablespinnerlibrary:1.3.1] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\315556c41917dfdc0036f2b02a23fe86\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-vision:11.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\788427bf29167765e081997c1dada0d4\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-vision:11.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\788427bf29167765e081997c1dada0d4\AndroidManifest.xml:3:5-43
+MERGED from [me.dm7.barcodescanner:zxing:1.9] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\6c97cb2cabf77cccd4eae345c6a0d05a\AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:zxing:1.9] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\6c97cb2cabf77cccd4eae345c6a0d05a\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-vision-common:11.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\cc14ade6362e9d46120780f56d2b5390\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-vision-common:11.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\cc14ade6362e9d46120780f56d2b5390\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\f478d037a61bd9b1afd3d64d774633bd\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\f478d037a61bd9b1afd3d64d774633bd\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\298a8d8fadc69bd5c1524de430277ddd\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\298a8d8fadc69bd5c1524de430277ddd\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\20b6fac92eea69685dcc45d286bd7261\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\20b6fac92eea69685dcc45d286bd7261\AndroidManifest.xml:17:5-43
+MERGED from [me.dm7.barcodescanner:core:1.9] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\198178887580bf2b25a5e9c1e700714d\AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:core:1.9] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\198178887580bf2b25a5e9c1e700714d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\078ef9f4e6174d0868b290452394af42\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\078ef9f4e6174d0868b290452394af42\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\6dbe49257c33ce1a811c52d4f95443ea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\6dbe49257c33ce1a811c52d4f95443ea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\24e8dcb8c66b2b8e5467bc158a7f3716\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\24e8dcb8c66b2b8e5467bc158a7f3716\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\84b035440cdc32e025d57226f17734aa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\84b035440cdc32e025d57226f17734aa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\a95e5ed86b6dcc932037ef8fce3f89cd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\a95e5ed86b6dcc932037ef8fce3f89cd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\e883579668864ffa74f16766a9ea9db0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\e883579668864ffa74f16766a9ea9db0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\7aca51242c6476842a84f6055907991a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\7aca51242c6476842a84f6055907991a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\040adddda04173073ce7af1800f22d84\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\040adddda04173073ce7af1800f22d84\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\b0b18731fe89f587e37c28ed11fc94f7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\b0b18731fe89f587e37c28ed11fc94f7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\5e6fd684baa848ca304c43081f0a4a74\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\5e6fd684baa848ca304c43081f0a4a74\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\b0b1751b7f011b0ff223fcebef3ca46a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\b0b1751b7f011b0ff223fcebef3ca46a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\4d04ce32c2c9420a7f7901ce4790b635\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\4d04ce32c2c9420a7f7901ce4790b635\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\e4045af1ec3dd9f4f29d3a800696d5d4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\e4045af1ec3dd9f4f29d3a800696d5d4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\303c8956bb5681526546fa63d6203c9a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\303c8956bb5681526546fa63d6203c9a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\0e8744c2a35cf12f7aa57b19b2d5e7b8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\0e8744c2a35cf12f7aa57b19b2d5e7b8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\6806c5b1ded2ff3b82590d651d5038fb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\6806c5b1ded2ff3b82590d651d5038fb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\d1aae56cf732f6c2d9cadebcac874668\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\d1aae56cf732f6c2d9cadebcac874668\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\6fb464a7901324b496cbd2df88303fb4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\6fb464a7901324b496cbd2df88303fb4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\3462b49d6254938cd445be647df43e95\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\3462b49d6254938cd445be647df43e95\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\a8d02aec3f0bd451173c2d2a497b7a3a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\a8d02aec3f0bd451173c2d2a497b7a3a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\8bf831ef0432be81556fded2b9d21e05\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\8bf831ef0432be81556fded2b9d21e05\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\2a930c790405d084bf52ba0e95fb9926\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\2a930c790405d084bf52ba0e95fb9926\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\37c05f331b6b44ad006847dbfc8424fa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\37c05f331b6b44ad006847dbfc8424fa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\c4f9cd2ef5d480e6ffa71212d01784fc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\c4f9cd2ef5d480e6ffa71212d01784fc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\f5d680bc85af044c1cb0a04bd496012d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\f5d680bc85af044c1cb0a04bd496012d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\ea681675e80c7dab7bd0ba97f6f7f6f0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\ea681675e80c7dab7bd0ba97f6f7f6f0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\00508b5c4db9d4d7361490b38b43856c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\00508b5c4db9d4d7361490b38b43856c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\4613aa554cf37e11031018e26e1d1f06\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\4613aa554cf37e11031018e26e1d1f06\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\a949deb3e02bcd08cc23e28a9a5c4824\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\a949deb3e02bcd08cc23e28a9a5c4824\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\8b11d228d59ea67bf52d1c97cd448026\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\8b11d228d59ea67bf52d1c97cd448026\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:25.3.1] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\078ef9f4e6174d0868b290452394af42\AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Yathashree\Desktop\22-08-2019\22-08-2019\OffSIteFinal\app\src\main\AndroidManifest.xml
+receiver#com.razorpay.RzpTokenReceiver
+ADDED from [com.razorpay:checkout:1.5.3] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\24e4a2b4150711f1b4e79bf4b4f17e9f\AndroidManifest.xml:12:9-16:20
+	android:name
+		ADDED from [com.razorpay:checkout:1.5.3] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\24e4a2b4150711f1b4e79bf4b4f17e9f\AndroidManifest.xml:12:19-63
+intent-filter#action:name:rzp.device_token.share
+ADDED from [com.razorpay:checkout:1.5.3] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\24e4a2b4150711f1b4e79bf4b4f17e9f\AndroidManifest.xml:13:13-15:29
+action#rzp.device_token.share
+ADDED from [com.razorpay:checkout:1.5.3] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\24e4a2b4150711f1b4e79bf4b4f17e9f\AndroidManifest.xml:14:17-65
+	android:name
+		ADDED from [com.razorpay:checkout:1.5.3] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\24e4a2b4150711f1b4e79bf4b4f17e9f\AndroidManifest.xml:14:25-62
+activity#com.razorpay.CheckoutActivity
+ADDED from [com.razorpay:checkout:1.5.3] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\24e4a2b4150711f1b4e79bf4b4f17e9f\AndroidManifest.xml:18:9-29:20
+	android:configChanges
+		ADDED from [com.razorpay:checkout:1.5.3] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\24e4a2b4150711f1b4e79bf4b4f17e9f\AndroidManifest.xml:20:13-83
+	android:theme
+		ADDED from [com.razorpay:checkout:1.5.3] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\24e4a2b4150711f1b4e79bf4b4f17e9f\AndroidManifest.xml:21:13-49
+	android:name
+		ADDED from [com.razorpay:checkout:1.5.3] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\24e4a2b4150711f1b4e79bf4b4f17e9f\AndroidManifest.xml:19:13-57
+intent-filter#action:name:android.intent.action.MAIN+data:host:rzp.io+data:scheme:io.rzp
+ADDED from [com.razorpay:checkout:1.5.3] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\24e4a2b4150711f1b4e79bf4b4f17e9f\AndroidManifest.xml:22:13-28:29
+data
+ADDED from [com.razorpay:checkout:1.5.3] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\24e4a2b4150711f1b4e79bf4b4f17e9f\AndroidManifest.xml:25:17-27:47
+	android:host
+		ADDED from [com.razorpay:checkout:1.5.3] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\24e4a2b4150711f1b4e79bf4b4f17e9f\AndroidManifest.xml:26:21-42
+	android:scheme
+		ADDED from [com.razorpay:checkout:1.5.3] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\24e4a2b4150711f1b4e79bf4b4f17e9f\AndroidManifest.xml:27:21-44
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\f478d037a61bd9b1afd3d64d774633bd\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\f478d037a61bd9b1afd3d64d774633bd\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\f478d037a61bd9b1afd3d64d774633bd\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\f478d037a61bd9b1afd3d64d774633bd\AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\20b6fac92eea69685dcc45d286bd7261\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\20b6fac92eea69685dcc45d286bd7261\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.0.0] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\20b6fac92eea69685dcc45d286bd7261\AndroidManifest.xml:20:20-65
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:25.3.1] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\078ef9f4e6174d0868b290452394af42\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\d1aae56cf732f6c2d9cadebcac874668\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\d1aae56cf732f6c2d9cadebcac874668\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:support-v4:25.3.1] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\078ef9f4e6174d0868b290452394af42\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:support-v4:25.3.1] C:\Users\Yathashree\.gradle\caches\transforms-2\files-2.1\078ef9f4e6174d0868b290452394af42\AndroidManifest.xml:26:9-47

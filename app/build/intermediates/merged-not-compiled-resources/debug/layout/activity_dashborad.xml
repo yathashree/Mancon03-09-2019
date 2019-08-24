@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".DashboradActivity"
+    tools:showIn="@layout/app_bar_dashboard">
+
+
+    <View
+         android:layout_width="match_parent"
+         android:layout_height="@dimen/view_height"
+         android:background="@color/hint_grey" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_five"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:background="@color/pink"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:gravity=""
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_five"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/profile_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/margin_five"
+                        android:background="@drawable/profile" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/margin_five"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/name"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="@dimen/margin_three"
+                            android:layout_weight="1"
+                            android:singleLine="true"
+                            android:text="Anitha GK"
+                            android:textAlignment="center"
+                            android:textColor="@color/text_color_black"
+                            android:textSize="@dimen/text_size" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/branch_id"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="@dimen/margin_three"
+                            android:layout_weight="1"
+                            android:singleLine="true"
+                            android:text="(BM)"
+                            android:textAlignment="center"
+                            android:textColor="@color/text_color_black"
+                            android:textSize="@dimen/text_size" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:orientation="vertical">
+
+
+                <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                    android:id="@+id/spinnerhub"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin_five"
+                    android:layout_weight="0.25"
+                    android:background="@drawable/spinner_hub"
+
+                    android:textAlignment="center" />
+
+                <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                    android:id="@+id/spinnerbranch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin_five"
+                    android:background="@drawable/spinner_hub"
+
+                    android:layout_weight="0.25"
+                    android:textAlignment="center" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+    <!-- <View
+         android:layout_width="match_parent"
+         android:layout_height="@dimen/view_height"
+         android:background="@color/hint_grey" />
+ -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_margin="5dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="@string/select_date"
+            android:textAlignment="center"
+            android:textColor="@color/text_color_black"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_three"
+            android:background="@drawable/edittextstyle"
+            android:gravity="center"
+            android:orientation="horizontal"
+
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.9"
+                android:gravity="center">
+
+
+                <TextView
+                    android:id="@+id/edit_cal"
+                    android:singleLine="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:onClick="ShowPopup"
+                    android:text="21/06/2019-21/06/2019"
+                    android:textColor="@color/text_color_black"
+                    android:textSize="@dimen/cal_text_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="0.01">
+
+                <ImageButton
+                    android:id="@+id/calendar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:background="@drawable/cal"
+                    android:onClick="ShowPopup"
+                    android:theme="@style/CalendarDatePickerDialog" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/empty_text"
+        android:weightSum="2">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_five"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/margin_five"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/site"
+                    android:singleLine="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/site_inspection"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_color_black"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="bold" />
+
+
+                <com.github.mikephil.charting.charts.PieChart
+                    android:id="@+id/piechart_visits"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:foregroundGravity="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/margin_five"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/customer_visit"
+                    android:singleLine="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/customer_visits"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_color_black"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="bold" />
+
+
+                <com.github.mikephil.charting.charts.PieChart
+                    android:id="@+id/piechart_missed"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_five"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/margin_five"
+
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/complaints"
+                    android:singleLine="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:text="@string/complaints"
+
+                    android:textAlignment="center"
+                    android:textColor="@color/text_color_black"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="bold" />
+
+
+                <com.github.mikephil.charting.charts.PieChart
+                    android:id="@+id/piechart_complaints"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:foregroundGravity="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/margin_five"
+
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/incidents"
+                    android:singleLine="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:text="@string/incidents"
+
+                    android:textAlignment="center"
+                    android:textColor="@color/text_color_black"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="bold" />
+
+
+                <com.github.mikephil.charting.charts.PieChart
+                    android:id="@+id/piechart_incidents"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <!-- <View
+             android:layout_width="match_parent"
+             android:layout_height="@dimen/view_height"
+             android:background="@color/hint_grey" />
+
+         <android.support.design.widget.AppBarLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="@color/white"
+             >
+
+
+             <LinearLayout
+                 android:layout_margin="@dimen/margin_five"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 >
+
+                 <LinearLayout
+                     android:layout_gravity="center"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="0.8">
+
+                     <Button
+                         android:id="@+id/btn_chkin"
+                         android:textColor="@color/red"
+                         android:layout_width="match_parent"
+                         android:layout_height="match_parent"
+                         android:layout_gravity="left"
+                         android:background="@drawable/btncancelstyle"
+                         android:text="@string/check_in"
+                         android:textSize="@dimen/text_size"
+                         android:textStyle="bold" />
+                 </LinearLayout>
+
+                 <LinearLayout
+                     android:layout_margin="@dimen/margin_ten"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+
+                     >
+
+                     <Button
+                         android:id="@+id/btn_sos"
+                         android:layout_width="48dp"
+                         android:layout_height="match_parent"
+                         android:layout_weight="0.2"
+                         android:background="@drawable/sos_select"
+                         android:text="@string/sos"
+                         android:textAlignment="center"
+                         android:textColor="@color/red"
+                         android:textSize="@dimen/text_size"
+                         android:textStyle="bold" />
+
+
+                 </LinearLayout>
+
+                 <LinearLayout
+                     android:layout_gravity="center"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="0.8">
+
+                     <Button
+ android:id="@+id/btn_chkout"
+                         android:textSize="@dimen/text_size"
+                         android:layout_width="match_parent"
+                         android:layout_height="match_parent"
+                         android:background="@drawable/btncancelstyle"
+                         android:text="@string/check_out"
+                         android:textColor="@color/red"
+                         android:textStyle="bold" />
+                 </LinearLayout>
+
+             </LinearLayout>
+
+         </android.support.design.widget.AppBarLayout>
+ -->
+    </LinearLayout>
+</LinearLayout>

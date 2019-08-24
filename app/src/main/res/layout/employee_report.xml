@@ -1,0 +1,1106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:padding="@dimen/padding_ten"
+            android:text="@string/employee_performance_summary_report"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <!--<ImageButton-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_margin="5dp"-->
+        <!--android:background="@drawable/pdf" />-->
+    </LinearLayout>
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/margin_ten"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margin_five"
+            android:orientation="vertical">
+
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_cal_border"
+                android:elevation="8dp"
+                card_view:cardCornerRadius="10dp"
+
+                card_view:cardUseCompatPadding="true">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="60dp"
+                            android:layout_height="match_parent"
+
+                            android:background="@drawable/bg_report">
+
+                            <TextView
+                                android:id="@+id/visits"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:rotation="270"
+                                android:singleLine="true"
+                                android:text="@string/visit"
+                                android:textAlignment="center"
+                                android:textColor="@color/text_color_black"
+                                android:textSize="10sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/margin_five"
+                                android:orientation="horizontal">
+
+
+                                <TextView
+                                    android:id="@+id/schedulevisits"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:gravity="start"
+                                    android:singleLine="true"
+                                    android:text="@string/schedule_visit"
+                                    android:textColor="@color/text_color_black"
+                                    android:textSize="@dimen/text_size" />
+
+                                <TextView
+                                    android:id="@+id/schv_count"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="end"
+                                    android:gravity="end"
+                                    android:singleLine="true"
+                                    android:text="00"
+                                    android:textColor="@color/text_color_black"
+                                    android:textSize="@dimen/text_size" />
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/view_height"
+                                android:background="@color/hint_grey" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/margin_five"
+                                android:orientation="horizontal">
+
+
+                                <TextView
+                                    android:id="@+id/un_schedulevisits"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="start"
+                                    android:singleLine="true"
+                                    android:text="@string/unscheduled_visit"
+                                    android:textColor="@color/text_color_black"
+                                    android:textSize="@dimen/text_size" />
+
+                                <TextView
+                                    android:id="@+id/unsv_count"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="end"
+                                    android:gravity="end"
+                                    android:singleLine="true"
+                                    android:text="02"
+                                    android:textColor="@color/text_color_black"
+                                    android:textSize="@dimen/text_size" />
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/view_height"
+                                android:background="@color/hint_grey" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/margin_five"
+                                android:orientation="horizontal">
+
+
+                                <TextView
+                                    android:id="@+id/missed_visits"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="start"
+                                    android:singleLine="true"
+                                    android:text="@string/missed_visit"
+                                    android:textColor="@color/text_color_black"
+                                    android:textSize="@dimen/text_size" />
+
+                                <TextView
+                                    android:id="@+id/mv_count"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="end"
+                                    android:gravity="end"
+                                    android:singleLine="true"
+                                    android:text="02"
+                                    android:textColor="@color/text_color_black"
+                                    android:textSize="@dimen/text_size" />
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/view_height"
+                                android:background="@color/hint_grey" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="8dp"
+                card_view:cardCornerRadius="10dp"
+                card_view:cardUseCompatPadding="true">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+
+                        >
+
+                        <LinearLayout
+                            android:layout_width="60dp"
+                            android:layout_height="match_parent"
+
+                            android:background="@drawable/bg_report">
+
+                            <TextView
+                                android:id="@+id/site_inspec"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:rotation="270"
+                                android:text="@string/site"
+                                android:textColor="@color/text_color_black"
+                                android:textSize="10sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/margin_five"
+
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/details"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:gravity="start"
+                                android:singleLine="true"
+                                android:text="@string/details_of_site"
+                                android:textColor="@color/text_color_black"
+                                android:textSize="@dimen/text_size"
+                                android:textStyle="bold" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/view_height"
+                                android:background="@color/hint_grey" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/margin_five"
+
+                                android:orientation="horizontal">
+
+
+                                <TextView
+                                    android:id="@+id/day"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:gravity="start"
+                                    android:singleLine="true"
+                                    android:text="@string/day_report"
+                                    android:textColor="@color/text_color_black"
+                                    android:textSize="@dimen/text_size" />
+
+                                <TextView
+                                    android:id="@+id/day_counr"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="end"
+                                    android:gravity="end"
+                                    android:singleLine="true"
+
+                                    android:text="00"
+                                    android:textColor="@color/text_color_black"
+                                    android:textSize="@dimen/text_size" />
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/view_height"
+                                android:background="@color/hint_grey" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/margin_five"
+
+                                android:orientation="horizontal">
+
+
+                                <TextView
+                                    android:id="@+id/night"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+
+                                    android:gravity="start"
+                                    android:singleLine="true"
+                                    android:text="@string/night_report"
+                                    android:textColor="@color/text_color_black"
+                                    android:textSize="@dimen/text_size" />
+
+                                <TextView
+                                    android:id="@+id/night_count"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="end"
+                                    android:gravity="end"
+                                    android:singleLine="true"
+                                    android:text="02"
+                                    android:textColor="@color/text_color_black"
+                                    android:textSize="@dimen/text_size" />
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/view_height"
+                                android:background="@color/hint_grey" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/margin_five"
+
+                                android:orientation="horizontal">
+
+
+                                <TextView
+                                    android:id="@+id/surprise"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="start"
+                                    android:singleLine="true"
+                                    android:text="@string/surprise_report"
+                                    android:textColor="@color/text_color_black"
+                                    android:textSize="@dimen/text_size" />
+
+                                <TextView
+                                    android:id="@+id/surprise_count"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="end"
+                                    android:gravity="end"
+                                    android:singleLine="true"
+                                    android:text="02"
+                                    android:textColor="@color/text_color_black"
+                                    android:textSize="@dimen/text_size" />
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/view_height"
+                                android:background="@color/hint_grey" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+
+                                android:layout_margin="@dimen/margin_five"
+
+                                android:orientation="horizontal">
+
+
+                                <TextView
+                                    android:id="@+id/others_site"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="start"
+                                    android:singleLine="true"
+                                    android:text="@string/others"
+                                    android:textColor="@color/text_color_black"
+                                    android:textSize="@dimen/text_size" />
+
+                                <TextView
+                                    android:id="@+id/others_count"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="end"
+                                    android:gravity="end"
+                                    android:singleLine="true"
+                                    android:text="02"
+                                    android:textColor="@color/text_color_black"
+                                    android:textSize="@dimen/text_size" />
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/view_height"
+                                android:background="@color/hint_grey" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="8dp"
+                card_view:cardCornerRadius="10dp"
+                card_view:cardUseCompatPadding="true">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+
+                        >
+
+                        <LinearLayout
+                            android:layout_width="60dp"
+                            android:layout_height="match_parent"
+
+                            android:background="@drawable/bg_report">
+
+                            <TextView
+                                android:id="@+id/variances"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:rotation="270"
+
+                                android:text="@string/VARIANCES"
+                                android:textColor="@color/text_color_black"
+                                android:textSize="10sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/margin_five"
+
+                                android:orientation="horizontal">
+
+
+                                <TextView
+                                    android:id="@+id/total_variances"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="start"
+                                    android:singleLine="true"
+                                    android:text="@string/Total_Variances"
+                                    android:textColor="@color/text_color_black"
+                                    android:textSize="@dimen/text_size" />
+
+                                <TextView
+                                    android:id="@+id/varinces_count"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="end"
+                                    android:gravity="end"
+                                    android:singleLine="true"
+                                    android:text="02"
+                                    android:textColor="@color/text_color_black"
+                                    android:textSize="@dimen/text_size" />
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/view_height"
+                                android:background="@color/hint_grey" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/margin_five"
+
+                                android:orientation="horizontal">
+
+
+                                <TextView
+                                    android:id="@+id/details_of_varinces"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:gravity="start"
+                                    android:singleLine="true"
+                                    android:text="@string/Details_Of_Variances"
+                                    android:textColor="@color/text_color_black"
+                                    android:textSize="@dimen/text_size"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/details_of_varinces_count"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="end"
+                                    android:gravity="end"
+                                    android:singleLine="true"
+
+                                    android:text="@string/Count"
+                                    android:textColor="@color/text_color_black"
+                                    android:textSize="@dimen/text_size"
+                                    android:textStyle="bold" />
+
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/view_height"
+                                android:background="@color/hint_grey" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/margin_five"
+
+                                android:orientation="horizontal">
+
+
+                                <TextView
+                                    android:id="@+id/alert"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:gravity="start"
+                                    android:singleLine="true"
+                                    android:text="@string/Alertness"
+                                    android:textColor="@color/text_color_black"
+                                    android:textSize="@dimen/text_size" />
+
+                                <TextView
+                                    android:id="@+id/alert_counr"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="end"
+                                    android:gravity="end"
+                                    android:singleLine="true"
+                                    android:text="00"
+                                    android:textColor="@color/text_color_black"
+                                    android:textSize="@dimen/text_size" />
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/view_height"
+                                android:background="@color/hint_grey" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/margin_five"
+
+                                android:orientation="horizontal">
+
+
+                                <TextView
+                                    android:id="@+id/uniform"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="start"
+                                    android:singleLine="true"
+                                    android:text="@string/Uniform"
+                                    android:textColor="@color/text_color_black"
+                                    android:textSize="@dimen/text_size" />
+
+                                <TextView
+                                    android:id="@+id/uniform_count"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="end"
+                                    android:gravity="end"
+                                    android:singleLine="true"
+                                    android:text="02"
+                                    android:textColor="@color/text_color_black"
+                                    android:textSize="@dimen/text_size" />
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/view_height"
+                                android:background="@color/hint_grey" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/margin_five"
+
+                                android:orientation="horizontal">
+
+
+                                <TextView
+                                    android:id="@+id/sop"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="start"
+                                    android:singleLine="true"
+                                    android:text="@string/SOP"
+                                    android:textColor="@color/text_color_black"
+                                    android:textSize="@dimen/text_size" />
+
+                                <TextView
+                                    android:id="@+id/sop_count"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="end"
+                                    android:gravity="end"
+                                    android:singleLine="true"
+                                    android:text="02"
+                                    android:textColor="@color/text_color_black"
+                                    android:textSize="@dimen/text_size" />
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/view_height"
+                                android:background="@color/hint_grey" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/margin_five"
+
+                                android:orientation="horizontal">
+
+
+                                <TextView
+                                    android:id="@+id/hse_site"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="start"
+                                    android:singleLine="true"
+                                    android:text="@string/HSE"
+                                    android:textColor="@color/text_color_black"
+                                    android:textSize="@dimen/text_size" />
+
+                                <TextView
+                                    android:id="@+id/hse_count"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="end"
+                                    android:gravity="end"
+                                    android:singleLine="true"
+                                    android:text="02"
+                                    android:textColor="@color/text_color_black"
+                                    android:textSize="@dimen/text_size" />
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/view_height"
+                                android:background="@color/hint_grey" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/margin_five"
+
+                                android:orientation="horizontal">
+
+
+                                <TextView
+                                    android:id="@+id/emergency"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="start"
+                                    android:singleLine="true"
+                                    android:text="@string/Emergency"
+                                    android:textColor="@color/text_color_black"
+                                    android:textSize="@dimen/text_size" />
+
+                                <TextView
+                                    android:id="@+id/emergency_count"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="end"
+                                    android:gravity="end"
+                                    android:singleLine="true"
+                                    android:text="02"
+                                    android:textColor="@color/text_color_black"
+                                    android:textSize="@dimen/text_size" />
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/view_height"
+                                android:background="@color/hint_grey" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/margin_five"
+
+                                android:orientation="horizontal">
+
+
+                                <TextView
+                                    android:id="@+id/training_site"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="start"
+                                    android:singleLine="true"
+                                    android:text="@string/Training"
+                                    android:textColor="@color/text_color_black"
+                                    android:textSize="@dimen/text_size" />
+
+                                <TextView
+                                    android:id="@+id/training_count"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="end"
+                                    android:gravity="end"
+                                    android:singleLine="true"
+                                    android:text="02"
+                                    android:textColor="@color/text_color_black"
+                                    android:textSize="@dimen/text_size" />
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/view_height"
+                                android:background="@color/hint_grey" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="8dp"
+                card_view:cardCornerRadius="10dp"
+                card_view:cardUseCompatPadding="true">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="60dp"
+                            android:layout_height="match_parent"
+
+                            android:background="@drawable/bg_report">
+
+                            <TextView
+                                android:id="@+id/client_complaints"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:rotation="270"
+                                android:singleLine="true"
+                                android:text="@string/CLIENT_COMPLAINTS"
+                                android:textColor="@color/text_color_black"
+                                android:textSize="10sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/margin_five"
+                                android:orientation="horizontal">
+
+
+                                <TextView
+                                    android:id="@+id/total_reported"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:gravity="start"
+                                    android:singleLine="true"
+
+                                    android:text="@string/Total_Reported"
+                                    android:textColor="@color/text_color_black"
+                                    android:textSize="@dimen/text_size" />
+
+                                <TextView
+                                    android:id="@+id/total_report_count"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="end"
+                                    android:gravity="end"
+                                    android:singleLine="true"
+                                    android:text="00"
+                                    android:textColor="@color/text_color_black"
+                                    android:textSize="@dimen/text_size" />
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/view_height"
+                                android:background="@color/hint_grey" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/margin_five"
+                                android:orientation="horizontal">
+
+
+                                <TextView
+                                    android:id="@+id/op_complaints"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="start"
+                                    android:singleLine="true"
+                                    android:text="@string/Open_Complaints"
+                                    android:textColor="@color/text_color_black"
+                                    android:textSize="@dimen/text_size" />
+
+                                <TextView
+                                    android:id="@+id/open_complaints"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="end"
+                                    android:gravity="end"
+                                    android:singleLine="true"
+                                    android:text="02"
+                                    android:textColor="@color/text_color_black"
+                                    android:textSize="@dimen/text_size" />
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/view_height"
+                                android:background="@color/hint_grey" />
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="8dp"
+                card_view:cardCornerRadius="10dp"
+                card_view:cardUseCompatPadding="true">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="60dp"
+                            android:layout_height="match_parent"
+
+                            android:background="@drawable/bg_report">
+
+                            <TextView
+                                android:id="@+id/incidents"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:rotation="270"
+                                android:singleLine="true"
+                                android:text="@string/INCIDENTS"
+                                android:textColor="@color/text_color_black"
+                                android:textSize="10sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/margin_five"
+                                android:orientation="horizontal">
+
+
+                                <TextView
+                                    android:id="@+id/total_incidents"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:gravity="start"
+                                    android:singleLine="true"
+                                    android:text="@string/Total_Reported"
+                                    android:textColor="@color/text_color_black"
+                                    android:textSize="@dimen/text_size" />
+
+                                <TextView
+                                    android:id="@+id/inci_count"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="end"
+                                    android:gravity="end"
+                                    android:singleLine="true"
+                                    android:text="00"
+                                    android:textColor="@color/text_color_black"
+                                    android:textSize="@dimen/text_size" />
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/view_height"
+                                android:background="@color/hint_grey" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/margin_five"
+                                android:orientation="horizontal">
+
+
+                                <TextView
+                                    android:id="@+id/total_open_incidents"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="start"
+                                    android:singleLine="true"
+                                    android:text="@string/Open_Incidents"
+                                    android:textColor="@color/text_color_black"
+                                    android:textSize="@dimen/text_size" />
+
+                                <TextView
+                                    android:id="@+id/total_inci"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="end"
+                                    android:gravity="end"
+                                    android:singleLine="true"
+                                    android:text="02"
+                                    android:textColor="@color/text_color_black"
+                                    android:textSize="@dimen/text_size" />
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/view_height"
+                                android:background="@color/hint_grey" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="8dp"
+                card_view:cardCornerRadius="10dp"
+                card_view:cardUseCompatPadding="true">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="60dp"
+                            android:layout_height="match_parent"
+
+                            android:background="@drawable/bg_report">
+
+                            <TextView
+                                android:id="@+id/client_information"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:rotation="270"
+                                android:singleLine="true"
+                                android:text="@string/client_information"
+                                android:textColor="@color/text_color_black"
+                                android:textSize="10sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/margin_five"
+                                android:orientation="horizontal">
+
+
+                                <TextView
+                                    android:id="@+id/clnt_under_threat"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:gravity="start"
+                                    android:singleLine="true"
+                                    android:text="@string/Client_Under_Threat"
+                                    android:textColor="@color/text_color_black"
+                                    android:textSize="@dimen/text_size" />
+
+                                <TextView
+                                    android:id="@+id/clnt_threat_count"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="end"
+                                    android:gravity="end"
+                                    android:singleLine="true"
+                                    android:text="00"
+                                    android:textColor="@color/text_color_black"
+                                    android:textSize="@dimen/text_size" />
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/view_height"
+                                android:background="@color/hint_grey" />
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+

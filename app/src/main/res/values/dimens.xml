@@ -1,0 +1,69 @@
+<resources>
+
+
+    <!-- Screen Margins Login Activity -->
+    <dimen name="text_headings">25sp</dimen>
+    <dimen name="card_view_layout_margin">40dp</dimen>
+    <dimen name="text_margin">20dp</dimen>
+    <dimen name="text_size_clock">14sp</dimen>
+
+
+
+    <!--Screen Margins Navigation drawer header -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">80dp</dimen>
+
+    <!--Screen Padding Navigation drawer header -->
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <!-- Screen Margins Scan Barcode -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+
+
+    <!-- Common Screen Margins  -->
+    <dimen name="cal_text_size">12sp</dimen>
+    <dimen name="margin_four">4dp</dimen>
+    <dimen name="width_fourty">40dp</dimen>
+    <dimen name="height_fourty">40dp</dimen>
+    <dimen name="margin_three">3dp</dimen>
+    <dimen name="margin_five">5dp</dimen>
+    <dimen name="view_height">2dp</dimen>
+    <dimen name="margin_ten">10dp</dimen>
+    <dimen name="layout_height">30dp</dimen>
+
+
+
+    <!-- Common Screen Padding  -->
+    <dimen name="padding_five">5dp</dimen>
+    <dimen name="padding_ten">10dp</dimen>
+
+
+
+    <!-- Screen Margins activity_filter screen -->
+    <dimen name="margin_fifteen">15dp</dimen>
+
+
+
+    <!-- Change Password Screen-->
+    <dimen name="change_margin">40dp</dimen>
+
+
+
+
+    <!-- activity_checklist,radio_questions screen-->
+    <dimen name="margin_twenty">20dp</dimen>
+    <dimen name="padding_two">2dp</dimen>
+    <dimen name="margin_two">2dp</dimen>
+    <dimen name="padding_three">3dp</dimen>
+
+
+    //textsize app_head
+    <dimen name="app_text_head">22sp</dimen>
+
+    //app text_size
+    <dimen name="text_size">14sp</dimen>
+
+
+
+</resources>

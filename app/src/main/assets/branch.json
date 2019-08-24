@@ -1,0 +1,52 @@
+[
+  {
+    "BranchAutoId": 3,
+    "BranchCode": "ADYGRD",
+    "BranchName": "Adiyar"
+  },
+  {
+    "BranchAutoId": 8,
+    "BranchCode": "ANNGRD",
+    "BranchName": "Anna Nagar"
+  },
+  {
+    "BranchAutoId": 16,
+    "BranchCode": "COMGRD",
+    "BranchName": "COIMBATORE"
+  },
+  {
+    "BranchAutoId": 28,
+    "BranchCode": "GUIGRD",
+    "BranchName": "Guindy"
+  },
+  {
+    "BranchAutoId": 15,
+    "BranchCode": "COCGRD",
+    "BranchName": "Kochi"
+  },
+  {
+    "BranchAutoId": 44,
+    "BranchCode": "MADGRD",
+    "BranchName": "Madurai"
+  },
+  {
+    "BranchAutoId": 56,
+    "BranchCode": "NUGGRD",
+    "BranchName": "Nungambakkam"
+  },
+  {
+    "BranchAutoId": 60,
+    "BranchCode": "PONGRD",
+    "BranchName": "Pondicherry"
+  },
+  {
+    "BranchAutoId": 69,
+    "BranchCode": "SRIGRD",
+    "BranchName": "Sripurumbedur"
+  },
+  {
+    "BranchAutoId": 70,
+    "BranchCode": "TRVGRD",
+    "BranchName": "Trivandrum"
+  }
+]

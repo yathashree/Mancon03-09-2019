@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:title="Dashboard"
+        android:icon="@drawable/dashboard"
+        />
+
+    <item
+        android:id="@+id/schedule"
+        android:title="Schedule"/>
+
+    <item
+        android:id="@+id/client_Reports"
+        android:title="Client Reports"/>
+    <item
+        android:id="@+id/emp_reports"
+        android:title="Employee Reports"/>
+    <item
+        android:id="@+id/mapaclient"
+        android:title="Map a Client"/>
+
+    <item
+        android:id="@+id/schedulevisits"
+        android:title="Schedule Visits"/>
+
+    <item
+        android:id="@+id/epsreports"
+        android:title="EPS Reports"/>
+    <item
+        android:id="@+id/epostingsheet"
+        android:title="EPosting Sheets"/>
+    <item
+        android:id="@+id/sendfeedback"
+        android:title="Send FeedBacks"/>
+    <item
+        android:id="@+id/help"
+        android:title="Help"/>
+    <item
+        android:id="@+id/logout"
+        android:title="Log Out"/>
+
+</menu>

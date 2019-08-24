@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_bg"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/current_date"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:background="@color/red" />
+
+    <com.squareup.timessquare.CalendarPickerView
+        android:textAlignment="center"
+
+        android:background="@color/white"
+        android:scaleY="1"
+        android:scaleX="1"
+        android:id="@+id/calendarPickerView"
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:theme="@style/CalendarDatePickerDialog"
+        android:clipToPadding="false"
+        app:tsquare_dayBackground="@drawable/day_background"
+        app:tsquare_dayTextColor="@drawable/day_text_color"
+        app:tsquare_headerTextColor="@color/hint_grey"
+        app:tsquare_titleTextColor="@color/red" />
+
+</LinearLayout>
