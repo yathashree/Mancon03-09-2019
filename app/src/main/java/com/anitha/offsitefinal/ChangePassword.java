@@ -26,7 +26,7 @@ public class ChangePassword extends AppCompatActivity {
     int randomNumber = 123456;
     private DatabaseHelper databaseHelper;
     private User user;
-
+Button btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
